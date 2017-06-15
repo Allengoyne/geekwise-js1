@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+}
+
+
+form input{
+  flex: auto;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+form#nav {
+  background-color: hsla(200, 30%, 70%, 1);
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+form#nav input {
+  margin-right: 10px;
+  padding: 5px;
+      border: 1px solid hsla(200, 30%, 60%, 1)
+
+}
+
+form#sticky input {
+  background-color: transparent;
+  border: none;
+  border-bottom: (200, 30%, 60%. 1);
+  width: 100%;
+  box-sizing: border-box;
+}
